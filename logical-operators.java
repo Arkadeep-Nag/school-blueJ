@@ -1,27 +1,19 @@
 
-
 /**
   @author Arkadeep Nag
  */
 public class Arkadeep
 {
-    public static void main(){
+    public static void main(String args[]){
         //Simple Variables with Integer Value
-        int x,y,z;
-        x=10;y=20;
-        if(x>y){
-            System.out.println("x is greater than y");
-            
+        int a,b;
+        float c = 3.1f;
+        a = 2 ; b=1;
+        if((c>a+b)){
+            if(c>a||c>b){
+                System.out.print("Yay!");
+            }
         }
-        else if (x<y) {
-            System.out.println("y is greater than x");
-            
-        }
-        else {
-            System.out.println("x is equal to y");
-            
-        }
-        
     
     }
 }
